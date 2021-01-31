@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Chapter 7
+    </title>
+</head>
+
+<body>
+    <h1>
+        Chapter # 7 - Forms
+    </h1>
+
+    <fieldset>
+        <legend>Your Details:</legend>
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </form> <br>
+    
+        <form>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+          </form>
+    </fieldset>
+
+<fieldset>
+    <legend>Your Review:</legend>
+
+        <label for="form">How did you hear about us?</label>
+        <select name="form" id="form">
+          <option value="volvo">Google</option>
+          <option value="saab">Fcaebook</option>
+          <option value="newspaper">Newspaper</option>
+          <option value="newspaper">Friends</option>
+          <option value="newspaper">Other Sources</option>
+        </select>
+
+        <form>
+            <label for="ask">Would you visit again?</label> <br>
+            <input type="radio" id="yes" name="choice" value="Yes">
+            <label for="yes">Yes</label>
+
+            <input type="radio" id="no" name="choice" value="No">
+            <label for="no">No</label>
+
+            <input type="radio" id="maybe" name="choice" value="Maybe">
+            <label for="maybe">Maybe</label>
+        </form> <br>
+
+          <form>
+              <label for="comment">Comment:</label> <br>
+              <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+          </form> <br>
+
+          <form>
+            <input type="checkbox" id="signup" name="signup" value="Email">
+            <label for="signup">Sign me up for email address</label> <br>
+            <input type="submit" value="Submit review">
+          </form>
+ </fieldset>
+</body>
+
+</html>
